@@ -1,0 +1,6 @@
+#!/bin/bash
+echo Removing cpd directory.........
+rm -rf dataset/cpd/$1
+echo Removing visibility graph directory.........
+rm -rf dataset/visibility_graph/$1
+
