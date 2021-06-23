@@ -51,25 +51,25 @@ CMakeLists.txt based on your machine setting. After that, run
 Currently, we provide three bash scripts to quickly reproduce the
 experimental results reported in paper [1].
 
-(1) bash preprocessing.sh [MAP_NAME] \n
-e.g., run "bash preprocessing.sh dao" \n
+(1) bash preprocessing.sh [MAP_NAME] <br />
+e.g., run "bash preprocessing.sh dao" <br />
 This bash command creates all the indexes (visibility graph, CPD)
 needed for End Point Search for all the maps in the benchmark suite (dao).
 
-(2) bash benchmark_EPS.sh [MAP_NAME] \n
-e.g., run "bash benchmark_EPS.sh dao" \n
+(2) bash benchmark_EPS.sh [MAP_NAME] <br />
+e.g., run "bash benchmark_EPS.sh dao" <br />
 This bash command simply runs EPS [1] and Polyanya [2] for all the maps in
 the benchmark suite (dao) using the queries available in moving AI.
 
-(3) bash clean_index.sh \n
-e.g., run "bash clean_index.sh" \n
+(3) bash clean_index.sh <br />
+e.g., run "bash clean_index.sh" <br />
 Simply delete all the indexes for all benchmark suites
 
 
 
 Contact
 ===========================================================
-For any question, Please contact Bojie.Shen@monash.edu.
+For any question, please contact Bojie.Shen@monash.edu.
 
 
 
