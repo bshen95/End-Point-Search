@@ -59,7 +59,7 @@ needed for End Point Search for all the maps in the benchmark suite (dao).
 - bash benchmark_EPS.sh [MAP_NAME] <br />
 e.g., run "bash benchmark_EPS.sh dao"
 This bash command simply runs EPS [1] and Polyanya [2] for all the maps in
-the benchmark suite (dao) using the queries available in moving AI.
+the benchmark suite (dao) using the queries taken from MovingAI.
 
 - bash clean_index.sh <br />
 e.g., run "bash clean_index.sh".
