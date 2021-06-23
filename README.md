@@ -22,7 +22,7 @@ code, please carefully cite our paper [1].
 Dataset
 ===========================================================
 EPS contains four benchmark suites (dao, da2, sc1, bgmaps) retrieved
-from MovingAI (https://movingai.com/benchmarks/grids.html). The
+from MovingAI (https://movingai.com/benchmarks). The
 merged-meshes are provide by the authors of Polyanya [2] and available
 from repository (https://bitbucket.org/%7B3c286763-d509-45c2-b036-75814ce8955f%7D/)
 
