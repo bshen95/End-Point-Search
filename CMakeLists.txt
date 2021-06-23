@@ -3,7 +3,6 @@ cmake_minimum_required(VERSION 3.14)
 
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_FLAGS "-pedantic -Wall -Wno-strict-aliasing -Wno-long-long -Wno-deprecated -Wno-deprecated-declarations")
-#set(DEV_CXX_FLAGS "-g -ggdb -O0 -fno-omit-frame-pointer -fsanitize=address")
 set(DEV_CXX_FLAGS "-g -ggdb -O0 -fno-omit-frame-pointer")
 set(RELEASE_CXX_FLAGS "-O3 -DNDEBUG")
 set(CMAKE_VERBOSE_MAKEFILE ON)

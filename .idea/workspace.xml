@@ -14,59 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f03ddcbb-265e-44c4-a5bc-3b1f96a52cf2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/CPD.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/COPYING" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build_visibility_graph.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clean_index.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/construct_cpd.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/cfg.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/cfg.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/constants.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/cpool.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/geometry.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/geometry.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/id_queue.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/rtree.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/scenario.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/scenario.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/timer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/timer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/timestamp_flag.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search/dijkstra.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search/eps.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search/epsSearchInstance.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search/epsSearchInstance.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search/expansion.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search/expansion.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search/searchinstance.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search/searchinstance.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search/visibleSearchInstance.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search/visibleSearchInstance.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs/binary_search.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs/consts.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs/cpd.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs/cpd.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs/edge.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs/graph.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs/graph.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs/mesh.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs/mesh.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs/point.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs/polygon.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs/range.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs/searchnode.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs/successor.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs/vec_io.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs/vertex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -216,7 +166,7 @@
       <workItem from="1623245387975" duration="177000" />
       <workItem from="1623395163664" duration="1514000" />
       <workItem from="1623587169327" duration="113000" />
-      <workItem from="1624430666171" duration="1227000" />
+      <workItem from="1624430666171" duration="4849000" />
     </task>
     <servers />
   </component>
