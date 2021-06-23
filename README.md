@@ -14,7 +14,7 @@ of EPS is mainly follows the description by Shen et al. [1]
 It must be noted that EPS is released under the terms of GNU AGPL
 version 3 (see files 'LICENSE' and 'COPYING'). The source code of EPS
 is released mainly for research purpose. If you are using our source
-code please carefully cite our paper [1].
+code, please carefully cite our paper [1].
 
 
 
@@ -22,7 +22,7 @@ code please carefully cite our paper [1].
 Dataset
 ===========================================================
 EPS contains four benchmark suites (dao, da2, sc1, bgmaps) retrieved
-from MovingAI(https://movingai.com/benchmarks/grids.html). The
+from MovingAI (https://movingai.com/benchmarks/grids.html). The
 merged-meshes are provide by the authors of Polyanya [2] and available
 from repository (https://bitbucket.org/%7B3c286763-d509-45c2-b036-75814ce8955f%7D/)
 
@@ -51,18 +51,18 @@ CMakeLists.txt based on your machine setting. After that, run
 Currently, we provide three bash scripts to quickly reproduce the
 experimental results reported in paper [1].
 
-(1) bash preprocessing.sh [MAP_NAME]
-e.g., run "bash preprocessing.sh dao"
+(1) bash preprocessing.sh [MAP_NAME]\\
+e.g., run "bash preprocessing.sh dao"\\
 This bash command creates all the indexes (visibility graph, CPD)
 needed for End Point Search for all the maps in the benchmark suite (dao).
 
-(2) bash benchmark_EPS.sh [MAP_NAME]
-e.g., run "bash benchmark_EPS.sh dao"
+(2) bash benchmark_EPS.sh [MAP_NAME] \\
+e.g., run "bash benchmark_EPS.sh dao" \\
 This bash command simply runs EPS [1] and Polyanya [2] for all the maps in
 the benchmark suite (dao) using the queries available in moving AI.
 
-(3) bash clean_index.sh
-e.g., run "bash clean_index.sh"
+(3) bash clean_index.sh \\
+e.g., run "bash clean_index.sh"\\
 Simply delete all the indexes for all benchmark suites
 
 
