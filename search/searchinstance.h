@@ -84,27 +84,10 @@ namespace polyanya
             nodes_popped = 0;
             nodes_pruned_post_pop = 0;
             successor_calls = 0;
-            insertion_time = 0;
             set_end_polygon();
             gen_initial_nodes();
         }
 
-        void init_search(PointLocation start_pl ,PointLocation end_pl)
-        {
-            assert(node_pool);
-            node_pool->reclaim();
-            search_id++;
-            open_list = pq();
-            final_node = nullptr;
-            nodes_generated = 0;
-            nodes_pushed = 0;
-            nodes_popped = 0;
-            nodes_pruned_post_pop = 0;
-            successor_calls = 0;
-
-            set_end_polygon(end_pl);
-            gen_initial_nodes(start_pl );
-        }
         void set_end_polygon();
         void gen_initial_nodes();
         int succ_to_node(
@@ -120,9 +103,7 @@ namespace polyanya
         int nodes_pruned_post_pop;  // Nodes we prune right after popping off
         int successor_calls;        // Times we call get_successors
         bool verbose;
-        double sort_cost;
 
-        double insertion_time;
 
         SearchInstance() = default;
         SearchInstance(MeshPtr m) : mesh(m) { init(); }
@@ -165,26 +146,11 @@ namespace polyanya
 
         double get_search_nano()
         {
-//            std::cout<<timer.elapsed_time_nano()<<std::endl;
-//            std::cout<<timer.elapsed_time_micro()<<std::endl;
             return timer.elapsed_time_nano();
         }
 
         void get_path_points(std::vector<Point>& out);
-        void print_search_nodes(std::ostream& outfile);
 
-
-        bool search(PointLocation start_pl, PointLocation end_pl);
-
-        void set_end_polygon(const PointLocation& end_pl);
-
-        void gen_initial_nodes(const PointLocation& start_pl);
-
-        bool bounded_search(PointLocation start_pl, PointLocation end_pl, double bound);
-
-        void get_path_vertex_id(std::vector<int> &out);
-
-        void get_path_vertex_id(std::vector<int> &out, int s_id, int g_id);
     };
 
 }
